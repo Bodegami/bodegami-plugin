@@ -1,0 +1,6 @@
+GUIA_PLUGIN_EQUIPE.md
+
+# Overrides locais (nunca commitar)
+.claude/settings.local.json
+.env
+*.local
