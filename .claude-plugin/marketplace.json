@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bodegami-plugin",
+  "description": "Plugin centralizado com skills, agents, MCPs e hooks para o time",
+  "owner": {
+    "name": "Bodegami",
+    "url": "https://github.com/bodegami"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bodegami/bodegami-plugin"
+  },
+  "plugins": [
+    {
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems.",
+      "version": "0.2.0",
+      "source": "./skills/algorithmic-art"
+    }
+  ]
+}
