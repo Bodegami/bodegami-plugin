@@ -22,12 +22,24 @@ bodegami-plugin/
 
 ## Instalação
 
+### Opção 1 — Manual (via comandos no Claude Code)
+
+Execute os comandos abaixo dentro do Claude Code:
+
 ```bash
+# 1. Adiciona o repositório como marketplace
 /plugin marketplace add Bodegami/bodegami-plugin
+
+# 2. Lista os plugins disponíveis
+/plugin list
+
+# 3. Instala o plugin
 /plugin install bodegami-plugin@Bodegami/bodegami-plugin
 ```
 
-Ou via `.claude/settings.json` no projeto:
+### Opção 2 — Automático (via projeto Git)
+
+Adicione o arquivo `.claude/settings.json` no repositório do projeto que vai usar o plugin. Qualquer pessoa que clonar o projeto já receberá o plugin automaticamente, sem precisar rodar nenhum comando.
 
 ```json
 {
