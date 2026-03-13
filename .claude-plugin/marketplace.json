@@ -16,6 +16,12 @@
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems.",
       "version": "0.2.0",
       "source": "./skills/algorithmic-art"
+    },
+    {
+      "name": "c4-diagram-agent",
+      "description": "Generates C4 diagrams (System Context, Container, Component, and Code levels) in PlantUML format from Feature Design Documents (FDDs). Use when users need to visualize architecture from technical documentation.",
+      "version": "0.1.0",
+      "source": "./agents/c4-diagram-agent.md"
     }
   ]
 }
